@@ -1,9 +1,9 @@
 ﻿# coding=utf-8
 #
-# CC-CEDICT 渲染工具
+# CC-CEDICT 渲染引擎
 # by David Wang
-# v1.9
-# 2016-04-30 13:16
+# v2.0
+# 2016-05-02 22:19
 #
 # 主要功能：下载CC-CEDICT数据文件，解压，解析数据文件并渲染成符合MDICT(HTML)格式的文件
 #
@@ -54,7 +54,7 @@ def showProgress(a, b, c):
     per = 100.00 * a * b / c  
     if per > 100:  
         per = 100  
-    print('Progress： %.2f%%' % per)
+    print('Progress： %.2f%%\r' % per,end='')
 
 
 ################################################################################
@@ -68,6 +68,7 @@ def showProgress(a, b, c):
 ################################################################################
 def downloadAndExtract():
     url = 'http://www.mdbg.net/chindict/export/cedict/' +ZIP_NAME
+
     zip_path = ''.join([os.path.abspath(os.path.dirname(__file__)), path.sep, ZIP_NAME])
     
     # 判断是否存在本地文件，若是，判断是否与网络文件大小相等，否则重新下载
@@ -78,11 +79,11 @@ def downloadAndExtract():
         if resp.code==200 :
             remote_size = resp.headers["content-length"]
             if local_size != int(remote_size) :
-                urllib.request.urlretrieve(url, zip_path, showProgress)
                 print('---开始下载数据文件---')
+                urllib.request.urlretrieve(url, zip_path, showProgress)
     else :
-        urllib.request.urlretrieve(url, zip_path, showProgress)
         print('---开始下载数据文件---')
+        urllib.request.urlretrieve(url, zip_path, showProgress)
     print("download complete!")
 
     #将打包的文件解压 

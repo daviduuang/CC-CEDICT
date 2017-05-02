@@ -1,31 +1,32 @@
-# CC-CEDICT
+ï»¿# CC-CEDICT
 
-CC-CEDICT´ÊµääÖÈ¾¹¤¾ß¼°ÎÄ¼þ¼ÐËµÃ÷
+CC-CEDICTè¯å…¸æ¸²æŸ“å·¥å…·åŠæ–‡ä»¶å¤¹è¯´æ˜Ž
 
-¹ØÓÚMDict¸ñÊ½¡¢WindowsÏÂµÄ´ÊµäÈí¼þ¼°Éú³É¹¤¾ßMdxBuilder¿ÉÒÔµ½ÕâÀï[ÏÂÔØ](http://www.octopus-studio.com/download.cn.htm)
+å…³äºŽMDictæ ¼å¼ã€Windowsä¸‹çš„è¯å…¸è½¯ä»¶åŠç”Ÿæˆå·¥å…·MdxBuilderå¯ä»¥åˆ°è¿™é‡Œ[ä¸‹è½½](http://www.octopus-studio.com/download.cn.htm)
 
---------------0.ÔËÐÐ»·¾³-----------------
-# »·¾³£ºPython 3.4.3
+0. è¿è¡ŒçŽ¯å¢ƒ
 
---------------1.ÎÄ¼þ¼ÐËµÃ÷-----------------
-output  : ´æ·ÅÒÑÖÆ×÷ºÃµÄ´ÊµäÎÄ¼þ£¬°´ÖÆ×÷ÈÕÆÚ´æ·Å£¬¿ÉÒÔÖ±½ÓÏÂÔØÊ¹ÓÃ
-data    : ´æ·ÅÅÅ°æËùÓÃCSSÑùÊ½ÎÄ¼þ
+çŽ¯å¢ƒï¼šPython 3.4.
 
---------------2.ÎÄ¼þËµÃ÷-----------------
-CC-CEDICT.py  £ºÏÂÔØCC-CEDICTÊý¾ÝÎÄ¼þ£¬½âÑ¹£¬½âÎöÊý¾ÝÎÄ¼þ²¢äÖÈ¾³É·ûºÏMDICT(HTML)¸ñÊ½µÄÎÄ¼þ
-                            Ä¬ÈÏÎª¼òÌåÖÐÎÄË÷Òý£¬ÐÞ¸Ä¡°HAN_SIMP = True ¡±Îª'False', ¼´¿ÉÇÐ»»Îª·±ÌåÖÐÎÄË÷Òý
-Changes.txt     £º³ÌÐòºÍÊý¾Ý¸üÐÂËµÃ÷
+1. æ–‡ä»¶å¤¹è¯´æ˜Ž
 
+output  : å­˜æ”¾å·²åˆ¶ä½œå¥½çš„è¯å…¸æ–‡ä»¶ï¼ŒæŒ‰åˆ¶ä½œæ—¥æœŸå­˜æ”¾ï¼Œå¯ä»¥ç›´æŽ¥ä¸‹è½½ä½¿ç”¨
+data    : å­˜æ”¾æŽ’ç‰ˆæ‰€ç”¨CSSæ ·å¼æ–‡ä»¶
 
---------------3.¹¤¾ßÊ¹ÓÃ·½·¨-----------------
-0. È·±£ÒÔÉÏÔËÐÐ»·¾³
-1. ÔËÐÐ CC-CEDICT.py Éú³ÉÓÃÓÚMdxBuilderÖÆ×÷µÄÔ´ÎÄ¼þ£¨html£©
-2. ÔËÐÐ MdxBuilder £º
-    Source Ñ¡ ¡®4.¡¯ÖÐÉú³ÉµÄCC-CEDICT.txtµÄÂ·¾¶£»
-    Target Ñ¡Ôñ ¡®output¡¯ ÎÄ¼þ¼ÐÏÂ×Ô¼ºÖ¸¶¨µÄÎÄ¼þÃû£¨ÍÆ¼öÃû³ÆCC-CEDICT.mdx£©£»
-    Data Ñ¡ Ç°Ãæ´æ·ÅÅÅ°æÑùÊ½µÄ¡®data¡¯ÎÄ¼þ¼Ð£»
-    OriginalFormatÑ¡MDict£¨Html£©£¬EncodingÑ¡UTF-8£¨Unicode£©£¬TitleÌîCC-CEDICT£¬DescriptionËæ±ãÌî£¨¿É²Î¿¼DictInformation.txt£©£»
-    µã»÷Start°´Å¥£¬µÈ´ý´¦Àí½áÊø
-6. ÔÚÖ§³ÖMDict¸ñÊ½´ÊµäµÄÈí¼þÖÐÌí¼ÓÉú³ÉµÄCC-CEDICT.mdxºÍCC-CEDICT.mdd
-    
- =========================
+2. æ–‡ä»¶è¯´æ˜Ž
+CC-CEDICT.py  ï¼šä¸‹è½½CC-CEDICTæ•°æ®æ–‡ä»¶ï¼Œè§£åŽ‹ï¼Œè§£æžæ•°æ®æ–‡ä»¶å¹¶æ¸²æŸ“æˆç¬¦åˆMDICT(HTML)æ ¼å¼çš„æ–‡ä»¶
+                é»˜è®¤ä¸ºç®€ä½“ä¸­æ–‡ç´¢å¼•ï¼Œä¿®æ”¹â€œHAN_SIMP = True â€ä¸º'False', å³å¯åˆ‡æ¢ä¸ºç¹ä½“ä¸­æ–‡ç´¢å¼•
+Changes.txt   ï¼šç¨‹åºå’Œæ•°æ®æ›´æ–°è¯´æ˜Ž
+â€‹
+3. å·¥å…·ä½¿ç”¨æ–¹æ³•
+  0. ç¡®ä¿ä»¥ä¸Šè¿è¡ŒçŽ¯å¢ƒ
+  1. è¿è¡Œ CC-CEDICT.py ç”Ÿæˆç”¨äºŽMdxBuilderåˆ¶ä½œçš„æºæ–‡ä»¶ï¼ˆhtmlï¼‰
+  2. è¿è¡Œ MdxBuilder ï¼š
+    Source é€‰ â€˜4.â€™ä¸­ç”Ÿæˆçš„CC-CEDICT.txtçš„è·¯å¾„ï¼›
+    Target é€‰æ‹© â€˜outputâ€™ æ–‡ä»¶å¤¹ä¸‹è‡ªå·±æŒ‡å®šçš„æ–‡ä»¶åï¼ˆæŽ¨èåç§°CC-CEDICT.mdxï¼‰ï¼›
+    Data é€‰ å‰é¢å­˜æ”¾æŽ’ç‰ˆæ ·å¼çš„â€˜dataâ€™æ–‡ä»¶å¤¹ï¼›
+    OriginalFormaté€‰MDictï¼ˆHtmlï¼‰ï¼ŒEncodingé€‰UTF-8ï¼ˆUnicodeï¼‰ï¼ŒTitleå¡«CC-CEDICTï¼ŒDescriptionéšä¾¿å¡«ï¼ˆå¯å‚è€ƒDictInformation.txtï¼‰ï¼›
+    ç‚¹å‡»StartæŒ‰é’®ï¼Œç­‰å¾…å¤„ç†ç»“æŸ  
+  3. åœ¨æ”¯æŒMDictæ ¼å¼è¯å…¸çš„è½¯ä»¶ä¸­æ·»åŠ ç”Ÿæˆçš„CC-CEDICT.mdxå’ŒCC-CEDICT.mdd
+â€‹
+â€‹
