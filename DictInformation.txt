@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="mdbg.css"/>
+<div class="hz">
+    <span class="ht1">C</span>
+	<span class="ht1">C</span>
+	<span class="ht5">-</span>
+	<span class="ht1">C</span>
+	<span class="ht2">E</span>
+	<span class="ht3">D</span>
+	<span class="ht3">I</span>
+	<span class="ht1">C</span>
+	<span class="ht4">T</span>
+</div>
+<img src="/mdbg.png">
+<div class="dy">
+    <ul>
+        <li>By <a href="mailto: yourname@domain.com">firefly</a></li>
+        <li>Number of entries: 111456 </li>
+        <li>Latest release: 2016-07-21 15:25:32 GMT</li>
+		<li>Indexed by: Simplified Chinese</li>
+    </ul>
+</div>
