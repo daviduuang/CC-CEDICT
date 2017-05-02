@@ -16,8 +16,14 @@ data    : 存放排版所用CSS样式文件
 2. 文件说明
 CC-CEDICT.py  ：下载CC-CEDICT数据文件，解压，解析数据文件并渲染成符合MDICT(HTML)格式的文件
                 默认为简体中文索引，修改“HAN_SIMP = True ”为'False', 即可切换为繁体中文索引
+<<<<<<< HEAD
 Changes.txt   ：程序和数据更新说明
 ​
+=======
+Changes.txt   ：程序和数据更新说明
+
+
+>>>>>>> origin/master
 3. 工具使用方法
   0. 确保以上运行环境
   1. 运行 CC-CEDICT.py 生成用于MdxBuilder制作的源文件（html）
@@ -27,6 +33,12 @@ Changes.txt   ：程序和数据更新说明
     Data 选 前面存放排版样式的‘data’文件夹；
     OriginalFormat选MDict（Html），Encoding选UTF-8（Unicode），Title填CC-CEDICT，Description随便填（可参考DictInformation.txt）；
     点击Start按钮，等待处理结束  
+<<<<<<< HEAD
   3. 在支持MDict格式词典的软件中添加生成的CC-CEDICT.mdx和CC-CEDICT.mdd
 ​
 ​
+=======
+  3. 在支持MDict格式词典的软件中添加生成的CC-CEDICT.mdx和CC-CEDICT.mdd
+  
+
+>>>>>>> origin/master

@@ -1,6 +1,6 @@
 ﻿# coding=utf-8
 #
-# CC-CEDICT 渲染引擎
+# CC-CEDICT 渲染工具
 # by David Wang
 # v2.0
 # 2016-05-02 22:19
