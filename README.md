@@ -1,4 +1,4 @@
-﻿# CC-CEDICT
+# CC-CEDICT
 
 CC-CEDICT词典制作工具及文件夹说明
 
@@ -24,13 +24,13 @@ Changes.txt  |  程序和数据更新说明
 
 ## 4. 工具使用方法
 
-    1. 确保以上运行环境
-    2. 运行 CC-CEDICT.py 生成用于MdxBuilder制作的源文件（html）
-    3. 运行 MdxBuilder ：
-        1. Source 选 ‘4.’中生成的CC-CEDICT.txt的路径；
-        2. Target 选择 ‘output’ 文件夹下自己指定的文件名（推荐名称CC-CEDICT.mdx）；
-        3. Data 选 前面存放排版样式的‘data’文件夹；
-        4. OriginalFormat选MDict（Html），Encoding选UTF-8（Unicode），Title填CC-CEDICT，Description随便填（可参考DictInformation.txt）；
-        5. 点击Start按钮，等待处理结束
+    1. 确保以上运行环境
+    2. 运行 CC-CEDICT.py 生成用于MdxBuilder制作的源文件（html）
+    3. 运行 MdxBuilder ：
+        - Source 选 ‘4.’中生成的CC-CEDICT.txt的路径；
+        - Target 选择 ‘output’ 文件夹下自己指定的文件名（推荐名称CC-CEDICT.mdx）；
+        - Data 选 前面存放排版样式的‘data’文件夹；
+        - OriginalFormat选MDict（Html），Encoding选UTF-8（Unicode），Title填CC-CEDICT，Description随便填（可参考DictInformation.txt）；
+        - 点击Start按钮，等待处理结束
         
 ## 5. 在支持MDict格式词典的软件中添加生成的CC-CEDICT.mdx和CC-CEDICT.mdd
